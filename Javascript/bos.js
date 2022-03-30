@@ -1,10 +1,10 @@
 $(document).ready(function () {
 $(".box").hover(hoveron,hoveroff);
 $("#Buyer").click(() => {
-    $("html").load('../Buyer.html');
+    $("html").load('../buyer.html');
 })
 $("#Seller").click(() => {
-  $("html").load('../Seller.html');
+  $("html").load('../seller.html');
 })
 });
 
