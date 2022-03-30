@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  margin-left: 5rem;
+}
+#form {
+  display: inline flex;
+
+  padding: 10px;
+}
+#for {
+  display: flex;
+}
+#login {
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  border-style: outset;
+}
+.area {
+  width: 20rem;
+  height: 2rem;
+  font-size: medium;
+  border-style: ridge;
+  border-radius: 10px;
+}
+#forgot {
+  display: flex;
+  justify-content: right;
+}
+#link {
+  display: inline-flex;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  padding: 10px;
+}
+#forgot a:hover {
+  border-style: groove;
+  border-radius: 10px;
+  background-color: purple;
+  color: white;
+}
+
+#or {
+  display: flex;
+  justify-content: center;
+}
+#faltu-design {
+  display: inline-flex;
+  border-style: hidden;
+  background-color: #e0ddcf;
+
+  padding: 5px;
+  border-radius: 5px;
+}
+#but {
+  display: flex;
+  justify-content: center;
+}
+#login:hover {
+  background-color: purple;
+  color: white;
+}
+#icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+#twitter {
+  border-style: hidden;
+  border-radius: 10px;
+}
